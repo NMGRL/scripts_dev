@@ -1,0 +1,34 @@
+actions:
+- frequency: 1
+  mapper: ''
+  ntrips: 13
+  start_count: 0
+  teststr: age<12.0
+  window: 0
+cancelations:
+- frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: age<131
+  window: 0
+post_run_terminations:
+- mapper: ''
+  teststr: ''
+  window: 0
+pre_run_terminations:
+- teststr: ''
+terminations:
+- frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  window: 0
+truncations:
+- frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  window: 0
